@@ -8,7 +8,15 @@ This is an example webserver for use with the **[nodetiles-core](http://github.c
 Installation
 -------------
 
-After downloading, be sure to install the dependencies (this may require installing cairo and pixman):
+You will need to install pixman and cairo, if you don't already have them:
+
+```bash
+$ brew install pixman cairo
+$ brew link cairo
+$ brew link pixman
+```
+
+Install the needed packages:
 
 ```bash
 $ npm install
