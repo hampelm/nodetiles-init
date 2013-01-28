@@ -8,10 +8,15 @@ This is an example webserver for use with the **[nodetiles-core](http://github.c
 Installation
 -------------
 
-You will need to install pixman and cairo, if you don't already have them:
+You will need to install pixman, cairo, and freetype, if you don't already have them:
 
 ```bash
-$ brew install pixman cairo
+$ brew install freetype pixman cairo
+```
+
+Make sure they're linked, if that doesn't happen automagically: 
+```bash
+$ brew link freetype
 $ brew link cairo
 $ brew link pixman
 ```
